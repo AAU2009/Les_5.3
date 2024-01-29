@@ -29,6 +29,7 @@ def test_student_registration_form():
         have.exact_text('NCR')
     ).click()
 
+
     browser.element('#city').click()
     browser.element('#react-select-4-option-0').click()
 
