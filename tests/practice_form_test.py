@@ -1,11 +1,7 @@
-from pathlib import Path
-from selene.support.shared import browser
-from selene import have, by
-from selene import command
+#from selene.support.shared import browser
+from selene import browser, have, command
 import os
 import tests
-from tests import resources
-
 
 def test_student_registration_form():
     browser.open('/automation-practice-form')
