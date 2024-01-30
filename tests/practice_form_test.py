@@ -1,4 +1,4 @@
-#from selene.support.shared import browser
+from selene.support.shared import browser
 from selene import browser, have, command
 import os
 import tests
